@@ -16,8 +16,16 @@ h2 {
   letter-spacing: 0.35em;
 }
 h5 {
-  font-size: 25pt;
+  font-size: 20pt;
 }
 p {
   font-size: 16pt;
+}
+footer {
+  display: flex;
+}
+#icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
 }
