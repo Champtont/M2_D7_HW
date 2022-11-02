@@ -16,7 +16,7 @@ h2 {
   letter-spacing: 0.35em;
 }
 h5 {
-  font-size: 14pt;
+  font-size: 18pt;
 }
 p {
   font-size: 16pt;
@@ -24,8 +24,13 @@ p {
 footer {
   display: flex;
 }
+
 #icons {
   display: flex;
   justify-content: flex-end;
   gap: 10px;
+}
+svg:hover {
+  color: blue;
+  transform: scale(1.5);
 }
